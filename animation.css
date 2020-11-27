@@ -71,6 +71,16 @@ nav {
     .nav__link--push-in {
         transform: translateY(0);
     }
+    /* Perfecting nav animation */
+    .nav__link--push-in .nav__text {
+        animation: ijl-na-vert 2s forwards;
+    }
+    @keyframes ijl-na-vert {
+        0% {transform: translateY(-.1em);}
+        50% {transform: translateY(0.1em);}
+        75% {transform: translateY(-0.05em);}
+        100% {transform: translateY(0);}
+    }
 }
 main {
     min-height: 100vh;
