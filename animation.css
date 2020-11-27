@@ -44,6 +44,16 @@ nav {
     background-color: slateblue;
     color: seashell;
 }
+/* Perfexting the animation by animating the text of the link */
+.nav__link--push-in .nav__text {
+    animation: ijl-na 2s forwards;
+}
+@keyframes ijl-na {
+    0% {transform: translateX(-1.5em);}
+    50% {transform: translateX(0.6em);}
+    75% {transform: translateX(-0.4em);}
+    100% {transform: translateX(0);}
+}
 /* Mediaquery for nav */
 @media screen and (min-width: 700px) {
     .nav {
