@@ -16,7 +16,7 @@ nav {
     display: flex;
     flex-direction: column;
 }
-.nav__knop {
+.nav__button {
     padding: .5em .9em;
     box-sizing: border-box;
     width: 2.7em;
@@ -63,4 +63,8 @@ main {
 }
 .animate-button {
     height: 1.5em;
+}
+/* Hide the bars or the close icons */
+.fas.hide {
+    display: none;
 }

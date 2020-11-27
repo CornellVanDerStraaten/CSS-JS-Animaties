@@ -16,5 +16,7 @@ menuButton.addEventListener('click', () => {
         setTimeout( () => {
             item.classList.toggle('nav__link--push-in');
         }, 100 * index);
-    })
+    });
+    document.querySelector('.fa-bars').classList.toggle('hide');
+    document.querySelector('.fa-times').classList.toggle('hide');
 })
